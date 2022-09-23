@@ -29,7 +29,9 @@
         </p>
         <div class="header__left__button">
           <button class="header__left__button__postule">
-            <span class="header__left__postule">Je postule</span>
+            <a href="#form"
+              ><span class="header__left__postule">Je postule</span></a
+            >
             <span class="header__left__arrow">&#x2192;</span>
           </button>
         </div>
@@ -49,16 +51,34 @@
         challenge Talent 4 Start Up
       </p>
     </div>
-    <div class="form__div">
-      <form action="" class="form">
+    <div class="form__div" id="form">
+      <form
+        action="https://api.staticsforms.xyz/submit"
+        method="post"
+        class="form"
+      >
         <h1 class="form__div__title">REMPLISSEZ LE FORMULAIRE</h1>
         <div class="form__champs">
-          <input type="text" placeholder="Nom *" class="form__inputs" />
-          <input type="text" placeholder="Email *" class="form__inputs" />
+          <input
+            type="text"
+            placeholder="Nom *"
+            class="form__inputs"
+            id="name"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Email *"
+            class="form__inputs"
+            id="email"
+            required
+          />
           <input
             type="text"
             placeholder="Nom de votre Start-up *"
             class="form__inputs"
+            id="startup_name"
+            required
           />
           <div class="form__champ">
             <p class="textarea__text">
@@ -69,6 +89,8 @@
               rows="10"
               placeholder="Message"
               class="form__inputs textarea"
+              id="message"
+              required
             ></textarea>
             <p class="joined__text textarea__text">Pièces jointes * :</p>
           </div>
@@ -81,7 +103,8 @@
             </button>
             <button
               class="form__submission__button form__submission__sumit__button"
-              type="file"
+              type="submit"
+              id="submit_button"
             >
               Soumettre ma candidature
             </button>
@@ -89,5 +112,30 @@
         </div>
       </form>
     </div>
+    <div class="footer__part">
+      <div class="footer__part__logos">
+        <img src="./assets/footer-logos-a.png" alt="" />
+        <img src="./assets/footer-logos-b.png" alt="" />
+        <img src="./assets/footer-logos-c.png" alt="" />
+        <img src="./assets/footer-logos-d.png" alt="" />
+      </div>
+      <div class="footer__part__text">
+        <p class="footer__part__text__paragraph">
+          Développé par Digital Africa, en partenariat avec Make it in Africa,
+          la Deutsche Gesellschat fûr <br />
+          internationale Zusammenarbeit (GIZ) GmbH, et le Ministère pour la
+          coopération Economique <br />
+          et le développement (BMZ), Talent 4 Startups est un programme pilote
+          de bourses <br />
+          d'études pour les métiers du numérique
+        </p>
+        <div class="footer__text__images">
+          <img src="./assets/icon-facebook.svg" alt="" />
+          <img src="./assets/icon-instagram.svg" alt="" />
+        </div>
+      </div>
+      <div class="footer__part__last__image"></div>
+    </div>
+    <script src="./script.js"></script>
   </body>
 </html>

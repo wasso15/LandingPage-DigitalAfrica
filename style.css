@@ -72,6 +72,10 @@ body {
   padding-top: 50px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header__left__arrow {
   font-size: 30px;
   color: white;
@@ -165,6 +169,10 @@ body {
   font-weight: bold;
 }
 
+.form__submission__button:hover {
+  cursor: pointer;
+}
+
 .form__submission__sumit__button {
   width: 134vh;
   height: 1.8cm;
@@ -172,4 +180,51 @@ body {
 
 .form {
   padding-bottom: 130px;
+}
+
+.footer__part {
+  background-color: #ffeac5;
+}
+
+.footer__part__logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3cm;
+  padding: 30px 0;
+  background-color: white;
+}
+
+.footer__part__logos img {
+  width: 30vh;
+  height: 20vh;
+}
+
+.footer__part__text {
+  width: 100%;
+  text-align: center;
+  font-family: "arial";
+  font-size: 18px;
+  line-height: 0.8cm;
+}
+
+.footer__part__text__paragraph {
+  margin-bottom: 3cm;
+  margin-top: 40px;
+}
+
+.footer__text__images {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: right;
+  gap: 0.7cm;
+  padding: 25px 30px;
+}
+
+.footer__text__images img {
+  width: 50px;
+  height: 50px;
+  background-color: #711a50;
 }
