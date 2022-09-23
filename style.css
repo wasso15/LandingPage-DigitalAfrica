@@ -84,10 +84,36 @@ body {
 
 .form__div__title {
   margin-top: 50px;
-  font-size: 32px;
-
+  font-size: 48px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  padding-bottom: 30px;
+  color: #711a50;
+}
+
+.form__champs {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__inputs {
+  display: block;
+  margin: 30px 0;
+  width: 130vh;
+  height: 2cm;
+  border-radius: 10px;
+  padding-left: 30px;
+  font-size: 28px;
+  border: none;
+  box-shadow: 0px 3px 5px rgb(164, 185, 192);
+}
+
+.form__inputs::placeholder {
+  color: #711a50;
 }
 
 .program {
@@ -101,4 +127,49 @@ body {
 
 .program__text {
   font-size: 28px;
+}
+
+.joined__text,
+.textarea__text {
+  color: #711a50;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  margin-top: 0px;
+}
+
+.textarea {
+  height: 5cm;
+  padding: 35px 30px;
+  text-align: justify;
+  width: 127vh;
+}
+
+.form__submission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__submission__button {
+  display: block;
+  background-color: #711a50;
+  margin: 20px 25px;
+  color: white;
+  border: none;
+  width: 12cm;
+  height: 2cm;
+  border-radius: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.form__submission__sumit__button {
+  width: 134vh;
+  height: 1.8cm;
+}
+
+.form {
+  padding-bottom: 130px;
 }
