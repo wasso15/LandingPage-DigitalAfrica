@@ -28,10 +28,12 @@
           Logiciel de gestion) par les apprennants de Kinshasa Digital Academy.
         </p>
         <div class="header__left__button">
-          <button class="header__left__button__postule">
-            <span class="header__left__postule">Je postule</span>
-            <span class="header__left__arrow">&#x2192;</span>
-          </button>
+          <a href="#form">
+            <button class="header__left__button__postule">
+              <span class="header__left__postule">Je postule</span>
+              <span class="header__left__arrow">&#x2192;</span>
+            </button>
+          </a>
         </div>
       </div>
       <div class="header__right">
@@ -49,8 +51,94 @@
         challenge Talent 4 Start Up
       </p>
     </div>
-    <div class="form__div">
-      <form action="" class="form__div__title">REMPLISSEZ LE FORMULAIRE</form>
+    <div class="form__div" id="form">
+      <form class="form">
+        <h1 class="form__div__title">REMPLISSEZ LE FORMULAIRE</h1>
+        <div class="form__champs">
+          <input
+            type="text"
+            placeholder="Nom *"
+            class="form__inputs"
+            id="name"
+            name="nameField"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Email *"
+            class="form__inputs"
+            id="email"
+            name="emailField"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Nom de votre Start-up *"
+            class="form__inputs"
+            id="startup_name"
+            name="startupNameField"
+            required
+          />
+          <div class="form__champ">
+            <p class="textarea__text">
+              Décrivez votre concept en quelques lignes *
+            </p>
+            <textarea
+              cols="30"
+              rows="10"
+              placeholder="Message"
+              class="form__inputs textarea"
+              id="message"
+              name="messageField"
+              required
+            ></textarea>
+            <p class="joined__text textarea__text">Pièces jointes * :</p>
+          </div>
+          <div class="form__submission">
+            <button
+              class="form__submission__button form__submission__piece__button"
+              type="file"
+            >
+              Sélectionnez un fichier pdf *
+            </button>
+            <button
+              class="form__submission__button form__submission__sumit__button"
+              type="submit"
+              id="submit_button"
+            >
+              Soumettre ma candidature
+            </button>
+          </div>
+        </div>
+      </form>
     </div>
+    <div class="footer__part">
+      <div class="footer__part__logos">
+        <img src="./assets/footer-logos-a.png" alt="" />
+        <img src="./assets/footer-logos-b.png" alt="" />
+        <img src="./assets/footer-logos-c.png" alt="" />
+        <img src="./assets/footer-logos-d.png" alt="" />
+        <img src="./assets/logo_kda.png" alt="" />
+      </div>
+      <div class="footer__part__text">
+        <p class="footer__part__text__paragraph">
+          Développé par Digital Africa, en partenariat avec Make it in Africa,
+          la Deutsche Gesellschat fûr <br />
+          internationale Zusammenarbeit (GIZ) GmbH, et le Ministère pour la
+          coopération Economique <br />
+          et le développement (BMZ), Talent 4 Startups est un programme pilote
+          de bourses <br />
+          d'études pour les métiers du numérique
+        </p>
+        <div class="footer__text__images">
+          <img src="./assets/icon-facebook.svg" alt="" />
+          <img src="./assets/icon-instagram.svg" alt="" />
+        </div>
+      </div>
+      <div class="footer__part__last__image">
+        <img src="./assets/motif1.png" alt="" />
+      </div>
+    </div>
+    <script src="./script.js"></script>
   </body>
 </html>

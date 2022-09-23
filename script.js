@@ -1,10 +1,14 @@
 //Sélection des éléments du DOM
-const buttonJePostule = document.querySelector(
-  ".header__left__button__postule"
-);
+const userName = document.querySelector("#name");
+const email = document.querySelector("#email");
+const startUpName = document.querySelector("#startup_name");
+const message = document.querySelector("message");
+const form = document.querySelector("form");
 
-buttonJePostule.addEventListener("click", goIntoForm);
+const submitButton = document.getElementById("submit_button");
 
-function goIntoForm() {
-  //Codes ici
+submitButton.addEventListener("click", handleSubmit);
+
+function handleSubmit() {
+  form.reset();
 }
