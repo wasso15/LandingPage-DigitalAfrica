@@ -10,49 +10,49 @@ body {
 
 .logo {
   width: 20vh;
-  padding: 0 140px;
+  padding: 0 100px;
 }
 
 .header {
   display: flex;
   background-color: #ffeac5;
-  padding: 70px 140px;
-  height: 16.5cm;
+  padding: 70px 100px;
+  height: 13.9cm;
 }
 
 .header__left__paragraph {
-  font-size: 40px;
+  font-size: 34px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 670px;
+  width: 460px;
   color: #711a50;
 }
 
 .header__text__booste {
-  font-size: 68px;
+  font-size: 50px;
 }
 
 .header__left__image {
   width: 450px;
-  height: 700px;
-  margin-left: 270px;
+  height: 600px;
+  margin-left: 150px;
   margin-top: 5px;
 }
 
 .header__left__second__paragraph {
-  font-size: 20px;
+  font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
-  width: 650px;
+  width: 490px;
   font-weight: 1;
   line-height: 0.8cm;
   color: #555250;
 }
 
 .header__left__button__postule {
-  height: 60px;
-  width: 280px;
+  height: 50px;
+  width: 250px;
   border-radius: 15px;
   border: none;
-  font-size: 28px;
+  font-size: 22px;
   margin-top: 40px;
   background-color: #711a50;
 }
@@ -77,18 +77,18 @@ a {
 }
 
 .header__left__arrow {
-  font-size: 30px;
+  font-size: 22px;
   color: white;
 }
 
 .header__left__postule {
-  font-size: 30px;
+  font-size: 22px;
   color: white;
 }
 
 .form__div__title {
   margin-top: 50px;
-  font-size: 48px;
+  font-size: 36px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
@@ -97,7 +97,7 @@ a {
 }
 
 .form__champs {
-  padding: 20px;
+  padding: 20px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -106,12 +106,12 @@ a {
 
 .form__inputs {
   display: block;
-  margin: 30px 0;
+  margin: 18px 0;
   width: 130vh;
-  height: 2cm;
+  height: 1.3cm;
   border-radius: 10px;
   padding-left: 30px;
-  font-size: 28px;
+  font-size: 18px;
   border: none;
   box-shadow: 0px 3px 5px rgb(164, 185, 192);
 }
@@ -122,22 +122,23 @@ a {
 
 .program {
   text-align: center;
-  padding-top: 50px;
+  padding: 40px 0;
+  font-family: arial;
 }
 
 .program__title {
-  font-size: 75px;
+  font-size: 55px;
 }
 
 .program__text {
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .joined__text,
 .textarea__text {
   color: #711a50;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 28px;
+  font-size: 22px;
   margin-top: 0px;
 }
 
@@ -145,7 +146,7 @@ a {
   height: 5cm;
   padding: 35px 30px;
   text-align: justify;
-  width: 127vh;
+  width: 125vh;
 }
 
 .form__submission {
@@ -162,10 +163,10 @@ a {
   color: white;
   border: none;
   width: 12cm;
-  height: 2cm;
+  height: 1.3cm;
   border-radius: 40px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -175,7 +176,7 @@ a {
 
 .form__submission__sumit__button {
   width: 134vh;
-  height: 1.8cm;
+  height: 1.3cm;
 }
 
 .form {
@@ -194,11 +195,12 @@ a {
   gap: 3cm;
   padding: 30px 0;
   background-color: white;
+  box-shadow: 0px 3px 5px rgb(164, 185, 192);
 }
 
 .footer__part__logos img {
-  width: 30vh;
-  height: 20vh;
+  width: 25vh;
+  height: 14vh;
 }
 
 .footer__part__text {
@@ -227,4 +229,14 @@ a {
   width: 50px;
   height: 50px;
   background-color: #711a50;
+}
+
+.footer__part__last__image {
+  height: 1.5cm;
+}
+
+.footer__part__last__image img {
+  margin-top: -8rem;
+  width: 100%;
+  height: 50vh;
 }

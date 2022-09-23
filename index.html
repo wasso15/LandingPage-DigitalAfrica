@@ -28,12 +28,12 @@
           Logiciel de gestion) par les apprennants de Kinshasa Digital Academy.
         </p>
         <div class="header__left__button">
-          <button class="header__left__button__postule">
-            <a href="#form"
-              ><span class="header__left__postule">Je postule</span></a
-            >
-            <span class="header__left__arrow">&#x2192;</span>
-          </button>
+          <a href="#form">
+            <button class="header__left__button__postule">
+              <span class="header__left__postule">Je postule</span>
+              <span class="header__left__arrow">&#x2192;</span>
+            </button>
+          </a>
         </div>
       </div>
       <div class="header__right">
@@ -52,11 +52,7 @@
       </p>
     </div>
     <div class="form__div" id="form">
-      <form
-        action="https://api.staticsforms.xyz/submit"
-        method="post"
-        class="form"
-      >
+      <form class="form">
         <h1 class="form__div__title">REMPLISSEZ LE FORMULAIRE</h1>
         <div class="form__champs">
           <input
@@ -64,6 +60,7 @@
             placeholder="Nom *"
             class="form__inputs"
             id="name"
+            name="nameField"
             required
           />
           <input
@@ -71,6 +68,7 @@
             placeholder="Email *"
             class="form__inputs"
             id="email"
+            name="emailField"
             required
           />
           <input
@@ -78,6 +76,7 @@
             placeholder="Nom de votre Start-up *"
             class="form__inputs"
             id="startup_name"
+            name="startupNameField"
             required
           />
           <div class="form__champ">
@@ -90,6 +89,7 @@
               placeholder="Message"
               class="form__inputs textarea"
               id="message"
+              name="messageField"
               required
             ></textarea>
             <p class="joined__text textarea__text">Pièces jointes * :</p>
@@ -118,6 +118,7 @@
         <img src="./assets/footer-logos-b.png" alt="" />
         <img src="./assets/footer-logos-c.png" alt="" />
         <img src="./assets/footer-logos-d.png" alt="" />
+        <img src="./assets/logo_kda.png" alt="" />
       </div>
       <div class="footer__part__text">
         <p class="footer__part__text__paragraph">
@@ -134,7 +135,9 @@
           <img src="./assets/icon-instagram.svg" alt="" />
         </div>
       </div>
-      <div class="footer__part__last__image"></div>
+      <div class="footer__part__last__image">
+        <img src="./assets/motif1.png" alt="" />
+      </div>
     </div>
     <script src="./script.js"></script>
   </body>

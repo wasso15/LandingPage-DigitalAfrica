@@ -5,8 +5,6 @@ const startUpName = document.querySelector("#startup_name");
 const message = document.querySelector("message");
 const form = document.querySelector("form");
 
-console.log(userName);
-
 const submitButton = document.getElementById("submit_button");
 
 submitButton.addEventListener("click", handleSubmit);
