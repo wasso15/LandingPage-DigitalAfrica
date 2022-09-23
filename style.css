@@ -4,41 +4,57 @@ body {
   padding: 0;
 }
 
+.navbar {
+  padding: 15px 0;
+}
+
+.logo {
+  width: 20vh;
+  padding: 0 140px;
+}
+
 .header {
   display: flex;
-  background-color: rgb(226, 195, 153);
-  padding: 70px 150px;
-  height: 16.8cm;
+  background-color: #ffeac5;
+  padding: 70px 140px;
+  height: 16.5cm;
 }
 
 .header__left__paragraph {
-  font-size: 60px;
+  font-size: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 700px;
+  width: 670px;
+  color: #711a50;
+}
+
+.header__text__booste {
+  font-size: 68px;
 }
 
 .header__left__image {
   width: 450px;
   height: 700px;
-  margin-left: 250px;
+  margin-left: 270px;
   margin-top: 5px;
 }
 
 .header__left__second__paragraph {
-  font-size: 18px;
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   width: 650px;
   font-weight: 1;
   line-height: 0.8cm;
+  color: #555250;
 }
 
 .header__left__button__postule {
   height: 60px;
-  width: 230px;
+  width: 280px;
   border-radius: 15px;
   border: none;
-  font-size: 20px;
+  font-size: 28px;
   margin-top: 40px;
+  background-color: #711a50;
 }
 
 .header__left__button__postule:hover {
@@ -46,5 +62,43 @@ body {
 }
 
 .header__left__paragraph__span__text {
-  color: rgb(241, 143, 22);
+  color: #ef8242;
+}
+
+.form__div {
+  margin-top: 175px;
+  margin: auto;
+  background-color: #ffeac5;
+  padding-top: 50px;
+}
+
+.header__left__arrow {
+  font-size: 30px;
+  color: white;
+}
+
+.header__left__postule {
+  font-size: 30px;
+  color: white;
+}
+
+.form__div__title {
+  margin-top: 50px;
+  font-size: 32px;
+
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.program {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.program__title {
+  font-size: 75px;
+}
+
+.program__text {
+  font-size: 28px;
 }
