@@ -260,6 +260,7 @@ a {
 .card__item_2 {
   background: url("./assets/motif2-Copie.png");
   background-repeat: no-repeat;
+  background-size: cover;
   background-size: 22px;
   background-position-x: 97%;
   background-position-y: 4.5rem;
