@@ -6,53 +6,80 @@ body {
 
 .navbar {
   padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__button {
+  margin-right: 10vw;
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar__button button {
+  height: 40px;
+  width: 50px;
+  border: 1px solid #711a50;
+  background-color: #ffff;
+  color: #555250;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.navbar__button button:hover,
+.active {
+  background-color: #711a50 !important;
+  color: #ffff !important;
 }
 
 .logo {
   width: 20vh;
-  padding: 0 140px;
+  padding: 0 100px;
 }
 
 .header {
   display: flex;
   background-color: #ffeac5;
-  padding: 70px 140px;
-  height: 16.5cm;
+  padding: 70px 100px;
+  height: 13.9cm;
 }
 
 .header__left__paragraph {
-  font-size: 40px;
+  font-size: 34px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 670px;
+  width: 460px;
   color: #711a50;
 }
 
 .header__text__booste {
-  font-size: 68px;
+  font-size: 50px;
 }
 
 .header__left__image {
   width: 450px;
-  height: 700px;
-  margin-left: 270px;
+  height: 600px;
+  margin-left: 150px;
   margin-top: 5px;
 }
 
 .header__left__second__paragraph {
-  font-size: 20px;
+  font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
-  width: 650px;
-  font-weight: 1;
+  width: 490px;
+  font-weight: 2;
   line-height: 0.8cm;
   color: #555250;
 }
 
 .header__left__button__postule {
-  height: 60px;
-  width: 280px;
+  height: 50px;
+  width: 250px;
   border-radius: 15px;
   border: none;
-  font-size: 28px;
+  font-size: 22px;
   margin-top: 40px;
   background-color: #711a50;
 }
@@ -72,19 +99,23 @@ body {
   padding-top: 50px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header__left__arrow {
-  font-size: 30px;
+  font-size: 22px;
   color: white;
 }
 
 .header__left__postule {
-  font-size: 30px;
+  font-size: 22px;
   color: white;
 }
 
 .form__div__title {
   margin-top: 50px;
-  font-size: 48px;
+  font-size: 36px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
@@ -93,7 +124,7 @@ body {
 }
 
 .form__champs {
-  padding: 20px;
+  padding: 20px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -102,12 +133,12 @@ body {
 
 .form__inputs {
   display: block;
-  margin: 30px 0;
+  margin: 18px 0;
   width: 130vh;
-  height: 2cm;
+  height: 1.3cm;
   border-radius: 10px;
   padding-left: 30px;
-  font-size: 28px;
+  font-size: 18px;
   border: none;
   box-shadow: 0px 3px 5px rgb(164, 185, 192);
 }
@@ -118,22 +149,187 @@ body {
 
 .program {
   text-align: center;
-  padding-top: 50px;
+  padding: 40px 0;
+  font-family: arial;
 }
 
 .program__title {
-  font-size: 75px;
+  font-size: 55px;
 }
 
 .program__text {
-  font-size: 28px;
+  font-size: 20px;
 }
+
+/*      Timer
+==========================*/
+
+.timer {
+  height: 280px;
+  width: 60vw;
+  border: 3px solid #ef8242;
+  margin: auto;
+  border-radius: 100px 0px 80px 10px;
+  background: url("./assets/motif2-Copie.png");
+  background-color: #fdfdfd;
+
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position-x: 1rem;
+  background-position-y: 4.5rem;
+}
+
+.timer h2 {
+  text-align: center;
+  color: #555250;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.timer__Timing {
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+  font-weight: 600;
+  color: #711a50;
+  line-height: 1.5rem;
+  width: 90%;
+  margin: auto;
+}
+
+.timer__text {
+  font-size: 0.9rem;
+  color: #555250;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 40px;
+}
+.timer__Jours,
+.timer__heures,
+.timer__min,
+.timer__Sec {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 110px;
+  margin: auto;
+  text-align: center;
+}
+.containerMiddleSection {
+  background-color: #ffeac5;
+  height: 1100px;
+}
+/*      Cards
+==========================*/
+
+.cards {
+  width: 70vw;
+  margin: auto;
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__item_1 {
+  background: url("./assets/motif2-Copie.png");
+  background-repeat: no-repeat;
+  background-size: 22px;
+  background-position-x: 97%;
+  background-position-y: 8vw;
+  width: 260px;
+  height: 320px;
+  border: 3px solid #ef8242;
+  border-radius: 0px 70px 0px 70px;
+  background-color: #fdfdfd;
+}
+.cards p {
+  margin-top: 20px;
+  text-align: center;
+  color: #555250;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.img__card img {
+  object-fit: contain;
+  width: 75%;
+  position: relative;
+  top: 1.8rem;
+  left: 2.2vw;
+}
+.card__item_2 {
+  background: url("./assets/motif2-Copie.png");
+  background-repeat: no-repeat;
+  background-size: 22px;
+  background-position-x: 97%;
+  width: 260px;
+  height: 320px;
+  border: 3px solid #ef8242;
+  border-radius: 0px 0px 80px 80px;
+  background-color: #fdfdfd;
+}
+
+.card__item_3 {
+  background: url("./assets/motif2-Copie.png");
+  background-repeat: no-repeat;
+  background-size: 22px;
+  background-position-x: 0.5vw;
+  background-position-y: 4.5rem;
+  width: 260px;
+  height: 320px;
+  border: 3px solid #ef8242;
+  border-radius: 0px 70px 0px 70px;
+  background-color: #fdfdfd;
+}
+
+.card__item_3 .img__card img {
+  transform: scale(-1, 1);
+  top: 2.5rem;
+  left: 4vw;
+}
+
+.downloadArea {
+  width: 70vw;
+  margin: 50px auto;
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ButtonDownload {
+  width: 50%;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #711a50;
+  color: #555250;
+}
+
+.ButtonDownload a {
+  color: #fdfdfd;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1 rem;
+  font-weight: 500;
+}
+.pDownload {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/*      forms
+==========================*/
 
 .joined__text,
 .textarea__text {
   color: #711a50;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 28px;
+  font-size: 22px;
   margin-top: 0px;
 }
 
@@ -141,7 +337,7 @@ body {
   height: 5cm;
   padding: 35px 30px;
   text-align: justify;
-  width: 127vh;
+  width: 125vh;
 }
 
 .form__submission {
@@ -158,18 +354,80 @@ body {
   color: white;
   border: none;
   width: 12cm;
-  height: 2cm;
+  height: 1.3cm;
   border-radius: 40px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
+}
+
+.form__submission__button:hover {
+  cursor: pointer;
 }
 
 .form__submission__sumit__button {
   width: 134vh;
-  height: 1.8cm;
+  height: 1.3cm;
 }
 
 .form {
   padding-bottom: 130px;
+}
+
+.footer__part {
+  background-color: #ffeac5;
+}
+
+.footer__part__logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3cm;
+  padding: 30px 0;
+  background-color: white;
+  box-shadow: 0px 3px 5px rgb(164, 185, 192);
+}
+
+.footer__part__logos img {
+  width: 25vh;
+  height: 14vh;
+}
+
+.footer__part__text {
+  width: 100%;
+  text-align: center;
+  font-family: "arial";
+  font-size: 18px;
+  line-height: 0.8cm;
+}
+
+.footer__part__text__paragraph {
+  margin-bottom: 3cm;
+  margin-top: 40px;
+}
+
+.footer__text__images {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: right;
+  gap: 0.7cm;
+  padding: 25px 30px;
+}
+
+.footer__text__images img {
+  width: 50px;
+  height: 50px;
+  background-color: #711a50;
+}
+
+.footer__part__last__image {
+  height: 1.5cm;
+}
+
+.footer__part__last__image img {
+  margin-top: -8rem;
+  width: 100%;
+  height: 50vh;
 }
