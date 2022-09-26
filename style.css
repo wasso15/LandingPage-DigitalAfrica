@@ -301,8 +301,9 @@ a {
 }
 
 .ButtonDownload {
-  width: 50%;
-  height: 50px;
+  padding-top: 10px;
+  width: 60%;
+  height: 40px;
   border-radius: 15px;
   background-color: #711a50;
   color: #555250;
@@ -314,9 +315,14 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.1 rem;
+  font-size: 22px;
   font-weight: 500;
 }
+
+.downlod_button__arrow {
+  font-size: 20px;
+}
+
 .pDownload {
   text-align: center;
   font-size: 0.9rem;
