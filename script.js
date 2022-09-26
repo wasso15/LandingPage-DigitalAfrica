@@ -44,27 +44,27 @@ let dataTraduction = {
   ],
   English: [
     {
-      firstParagraph: `Boostez</span> votre Start-up avec
+      firstParagraph: `Boost </span> your Start-up with
       <span class="header__left__paragraph__span__text">
-        une solution numérique offerte`,
+        an offered digital solution`,
     },
     {
-      secondParagraph: `Vous êtes une Start-up, participez à Talent for Start-ups challenge by
-    Digital Africa et profitez d'un accompagnement gratuit pour la
-    réalisation de vos projets numériques(Website, Application mobile,
-    Logiciel de gestion) par les apprennants de Kinshasa Digital Academy.`,
-    },
-
-    {
-      PostulText: `Je postule`,
-    },
-    {
-      programTitle: `PROGRAMME`,
+      secondParagraph: `You are a Start-up, participate to Talent for Start-ups challenge by
+    Digital Africa and benefit from a free accompaniment for the
+    realization of your digital projects (Website, Mobile application,
+     Management software) by Kinshasa Digital Academy learners.`,
     },
 
     {
-      programText: `Voici quelques étapes à suivre pour procéder à l'inscription du
-  challenge Talent 4 Start Up`,
+      PostulText: `I postulate`,
+    },
+    {
+      programTitle: `PROGRAM`,
+    },
+
+    {
+      programText: `Here are some steps to follow to register the
+   Talent 4 Start-Up challenge`,
     },
   ],
 };
